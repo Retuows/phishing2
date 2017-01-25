@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<style> 
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;    
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
+</style>
+<body>
+
+<form action="URL" method="post">
+  <fieldset style="font-family:verdana">
+    <legend>Gegevens:</legend>
+    Naam:<br>
+    <input type="text" name="firstname">
+	<br>
+    Afdeling:<br>
+    <input type="text" name="lastname">
+	<br>
+	Email:<br>
+    <input type="text" name="lastname">
+	<br>
+	Wachtwoord:<br>
+    <input type="text" name="lastname">
+	<br>
+	Bevestig wachtwoord:<br>
+    <input type="text" name="lastname">
+    <br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+</body>
+</html>
